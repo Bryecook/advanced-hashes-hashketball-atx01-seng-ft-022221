@@ -162,5 +162,10 @@ def team_names
 end
 
 def player_numbers(player)
-  game_hash.each do |location, team_data|
-    if team_data
+  game_hash.each do |team, team_data|
+    team_data[:players][:jersey].map
+  end
+end
+      
+      
+      
