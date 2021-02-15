@@ -192,4 +192,9 @@ def player_stats(player_name)
 end
 
 def big_shoe_rebounds
-  
+  game_hash.each do |team, team_data|
+    team_data.each do |key, value|
+      binding.pry
+    end
+  end
+end
