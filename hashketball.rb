@@ -161,7 +161,7 @@ def team_names
   end
 end
 
-def player_numbers(player)
+def player_numbers(team_input)
   game_hash.each do |team, team_data|
     team_data[:players][:number].map
   end
