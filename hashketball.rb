@@ -129,9 +129,9 @@ end
 
 def num_points_scored(player_name)
   game_hash.each do |location, team_data|
-    team_data.each do |attribute, data|
-      data.each do|data_item|
-      binding.pry
+    team_data[:players].each do |player|
+      if player[:player_name]==player_name
+        player[:points]
     end
   end
 end
