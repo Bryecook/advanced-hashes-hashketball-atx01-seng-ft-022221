@@ -162,4 +162,5 @@ def team_names
 end
 
 def player_numbers(player)
-  game_hash
+  game_hash.each do |location, team_data|
+    if team_data
