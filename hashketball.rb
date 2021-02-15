@@ -133,7 +133,7 @@ def num_points_scored(player_name)
       data.each do|data_item|
       binding.pry
       
-  
+  end
   
   
   
