@@ -163,7 +163,7 @@ end
 
 def player_numbers(player)
   game_hash.each do |team, team_data|
-    team_data[:players][:jersey].map
+    team_data[:players][:number].map
   end
 end
       
