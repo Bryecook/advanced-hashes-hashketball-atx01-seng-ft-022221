@@ -132,9 +132,19 @@ def num_points_scored(player_name)
     team_data[:players].each do |player|
       if player[:player_name]==player_name
         return player[:points]
+      end
     end
   end
-endend
-  
+end
+
+def shoe_size(player_name)
+  game_hash do |location, team_data|
+    team_data[:players].each do |player|
+      if player[:player_name]==player_name
+        return player[:shoe_size]
+      end
+    end
+  end
+end
   
   
